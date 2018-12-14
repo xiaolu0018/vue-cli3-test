@@ -18,11 +18,11 @@ module.exports = {
 
 	// 将构建好的文件输出到哪里
 	outputDir: process.env.NODE_ENV === 'production' ?
-		'F:\\20181009\\police-project-big-data-2.0.0\\big-data-web\\src\\main\\resources' :
+		'F:\\vue-cli3-test\\src\\main\\resources' :
 		'dist',
 
 	indexPath: process.env.NODE_ENV === 'production' ?
-		'F:\\20181009\\police-project-big-data-2.0.0\\big-data-web\\src\\main\\resources\\templates\\login.html' :
+		'F:\\vue-cli3-test\\src\\main\\resources\\templates\\login.html' :
 		'login.html',
 
 	// 放置静态资源的地方 (js/css/img/font/...)
