@@ -1,4 +1,4 @@
-# big-data
+# vue-cli3-test
 
 ## Project setup
 ```
@@ -9,7 +9,10 @@ npm install
 ```
 npm run serve
 ```
-
+### Compiles development and proxy production data
+```
+npm run proxy
+```
 ### Compiles and minifies for production
 ```
 npm run build
